@@ -7,7 +7,6 @@ import Greeting from './components/Greeting.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
     <Greeting name="Lucas Walters"/>
   </StrictMode>,
 )
