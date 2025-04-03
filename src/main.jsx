@@ -4,9 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import Greeting from './components/Greeting.jsx'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Greeting />
+    <Greeting name="Lucas Walters"/>
   </StrictMode>,
 )
